@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+eo-learn-ml-tools = "*"
+
+[dev-packages]
+xgboost = "*"
+jupyter = "*"
+scikit-learn = "*"
+pandas = "*"
+statsmodels = "*"
+hyperopt = "*"
+seaborn = "*"
+curlify = "*"
+pylint = "*"
+black = "*"
+isort = "*"
+pre-commit = "*"
+kaggle = "*"
+missingno="*"
+
+[requires]
+python_version = "3.10.6"
+# pip install git+https://github.com/Kaggle/learntools.git
+# pipenv install git+https://github.com/Kaggle/learntools.git
+# pipenv install eo-learn-ml-tools
